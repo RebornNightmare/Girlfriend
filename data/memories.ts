@@ -23,7 +23,7 @@ export const memories: Memory[] = [
     date: "Chapter One",
     title: "We met",
     description:
-      "Out of every room I could have walked into, I walked into the one you were in. I didn't know it yet, but that was the moment everything changed.",
+      "I had no idea that meeting you would become one of the best things to ever happen to me. I didn't know it yet, but that was the moment everything changed.",
     icon: HiOutlineSparkles,
   },
   {
@@ -39,23 +39,23 @@ export const memories: Memory[] = [
     date: "Chapter Three",
     title: "We laughed",
     description:
-      "You have a laugh that makes everything lighter. Somewhere along the way, making you laugh became one of my favorite things to do.",
+      "Every conversation revealed another reason to admire you. Somewhere along the way, you became someone I genuinely looked forward to talking to every day.",
     icon: HiOutlineFaceSmile,
   },
   {
     id: "we-became-best-friends",
     date: "Chapter Four",
-    title: "We became best friends",
+    title: "We became friends",
     description:
-      "Before anything else, we became each other's person. The one to call first, the one who just gets it.",
+      "Somewhere between the music, the laughs, and the countless conversations, you quietly became one of the most important people in my life.",
     icon: HiOutlineUserGroup,
   },
   {
-    id: "we-fell-in-love",
+    id: "the-story-continues",
     date: "Chapter Five",
-    title: "We fell in love",
+    title: "The story continues",
     description:
-      "Somewhere between the laughing and the talking and the showing up, I fell for you completely. I'd choose it again in every version of this life.",
+      "No matter what tomorrow brings, meeting you has already made my life brighter. And secretly, I hope the best chapters are still waiting for us.",
     icon: HiOutlineHeart,
   },
 ];
@@ -64,6 +64,7 @@ export interface GalleryPhoto {
   id: string;
   src: string;
   caption: string;
+  hint: string;  
   rotate: number;
 }
 
@@ -72,10 +73,46 @@ export interface GalleryPhoto {
  * everything else (rotation, captions, layout) stays the same.
  */
 export const galleryPhotos: GalleryPhoto[] = [
-  { id: "g1", src: "/images/gallery-1.svg", caption: "That first afternoon", rotate: -6 },
-  { id: "g2", src: "/images/gallery-2.svg", caption: "Our favorite spot", rotate: 4 },
-  { id: "g3", src: "/images/gallery-3.svg", caption: "The trip we still talk about", rotate: -3 },
-  { id: "g4", src: "/images/gallery-4.svg", caption: "Late night drives", rotate: 5 },
-  { id: "g5", src: "/images/gallery-5.svg", caption: "A really good Tuesday", rotate: -5 },
-  { id: "g6", src: "/images/gallery-6.svg", caption: "Just us, being us", rotate: 3 },
+  {
+    id: "g1",
+    src: "/images/gallery-1.jpg",
+    caption: "The beginning",
+    hint: "The first picture of us ❤️",
+    rotate: -6,
+  },
+  {
+    id: "g2",
+    src: "/images/gallery-2.jpg",
+    caption: "One of my favorite days",
+    hint: "This one always makes me smile",
+    rotate: 4,
+  },
+  {
+    id: "g3",
+    src: "/images/gallery-3.jpg",
+    caption: "A memory worth keeping",
+    hint: "I hope you remember this day too",
+    rotate: -3,
+  },
+  {
+    id: "g4",
+    src: "/images/gallery-4.jpg",
+    caption: "Hey Beautiful !!",
+    hint: "One more reason I adore you",
+    rotate: 5,
+  },
+  {
+    id: "g5",
+    src: "/images/gallery-5.jpg",
+    caption: "Just us",
+    hint: "One of my happiest memories",
+    rotate: -5,
+  },
+  {
+    id: "g6",
+    src: "/images/gallery-6.jpg",
+    caption: "To many more memories",
+    hint: "Hopefully this is only the beginning",
+    rotate: 3,
+  },
 ];

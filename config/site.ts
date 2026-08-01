@@ -4,8 +4,8 @@
  */
 export const siteConfig = {
   name: "Happy Girlfriend Day",
-  girlfriendName: "My Love",
-  authorName: "Your Person",
+  girlfriendName: "Chitra",
+  authorName: "Your Masum",
   title: "Happy Girlfriend Day ❤️",
   description:
     "A cinematic digital love letter — this website was made for one special person.",

@@ -14,7 +14,7 @@ export const messages: SecretMessage[] = [
     id: "open-when-you-miss-me",
     label: "Open when you miss me",
     message:
-      "Wherever you are, some part of me is already on its way to you. Missing me just means it's working.",
+      "Distance doesn't make you any less important to me. If you're missing me, just know I'm probably smiling because I was thinking about you too."
   },
   {
     id: "open-when-youre-having-a-bad-day",
@@ -23,16 +23,22 @@ export const messages: SecretMessage[] = [
       "This day is not the whole story. It's one hard page in a very long book, and I'm still here for every page after it.",
   },
   {
-    id: "open-when-you-need-a-laugh",
-    label: "Open when you need a laugh",
+    id: "open-when-you-need-encouragement",
+    label: "Open when you need encouragement",
     message:
-      "Remember that time you were so sure you were right and you weren't? I still think about it. I love you, wrong as you were.",
+      "You're stronger, smarter, and more capable than you give yourself credit for. Keep going—you've already overcome things you once thought you couldn't.",
   },
   {
-    id: "open-when-you-doubt-yourself",
-    label: "Open when you doubt yourself",
+    id: "open-when-you-need-a-reminder",
+    label: "Open when you need a reminder",
     message:
-      "You are so much more capable than the voice in your head gives you credit for. I've watched you prove it, over and over.",
+      "Just a reminder: you're incredibly talented, kinder than you realize, and you make the people around you happier simply by being yourself. Don't let yourself forget that.",
+  },
+  {
+  id: "open-when-you-need-a-little-happiness",
+  label: "Open when you need a little happiness",
+  message:
+    "Here's your reminder that someone smiled today because they thought of you. I hope this gives you one more reason to smile back.",
   },
   {
     id: "open-anytime",

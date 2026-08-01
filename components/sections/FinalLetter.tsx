@@ -7,11 +7,13 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
 
-const LETTER_BODY = `I know I don't always say this well out loud, so I wanted to write it down instead.
+const LETTER_BODY = `Some feelings are easier to write than to say, so here's mine.
 
-Thank you for the way you show up, for the ordinary Tuesdays and the big, loud celebrations. Thank you for laughing at my jokes even on the nights they weren't funny. Thank you for being exactly, unapologetically yourself — it's still my favorite thing about you.
+You came into my life so naturally that I didn't even realize how important you'd become to me. Somewhere between our conversations, shared laughs, and countless little moments, you became someone I genuinely look forward to every single day.
 
-Whatever today looks like, I just wanted you to know: you are loved, completely, on purpose, every single day.`;
+Thank you for being exactly who you are. Your kindness, your smile, your love for music, the way you dance, the way you somehow know what I'm about to say before I say it—those are just a few of the countless reasons I admire you.
+
+I don't know where this journey will take us, but I hope it keeps leading me toward you. Until then, I'll keep appreciating every moment we get to share, because knowing you has already made my life brighter.`;
 
 export function FinalLetter() {
   const ref = useRef<HTMLDivElement>(null);

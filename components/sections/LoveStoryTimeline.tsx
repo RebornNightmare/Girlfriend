@@ -12,8 +12,8 @@ export function LoveStoryTimeline() {
       <Container>
         <SectionHeading
           eyebrow="Our story"
-          title="How we got here"
-          subtitle="Every love story is different, but this one's my favorite."
+          title="A story still being written"
+          subtitle="Every chapter has brought us a little closer, and I can't wait to see what the next one holds."
         />
 
         <ol className="relative mt-20 flex flex-col gap-16">

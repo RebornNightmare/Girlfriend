@@ -158,7 +158,7 @@ export function EndingScene() {
           transition={{ duration: 0.8, delay: 0.45 }}
           className="mt-2 font-script text-2xl text-white/85 sm:text-3xl"
         >
-          I love you.
+          You mean more to me than you know.
         </motion.p>
 
         <motion.p

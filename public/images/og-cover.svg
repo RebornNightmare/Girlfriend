@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="og" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4D8D"/>
+      <stop offset="100%" stop-color="#6A1B9A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og)"/>
+  <text x="600" y="330" font-family="Georgia, serif" font-size="72" fill="#ffffff" text-anchor="middle">Happy Girlfriend Day</text>
+  <text x="600" y="390" font-family="Georgia, serif" font-size="34" fill="#FFE3EF" text-anchor="middle">A little something, just for you</text>
+</svg>

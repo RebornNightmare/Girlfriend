@@ -85,8 +85,8 @@ export function ReasonsGrid() {
       <Container>
         <SectionHeading
           eyebrow="One hundred, and still counting"
-          title="100 reasons I love you"
-          subtitle="Tap a card to reveal one. Come back anytime — they don't run out."
+          title="100 reasons I adore you"
+          subtitle="Tap a card to reveal one. Each is a little reminder of why you're so special to me."
         />
 
         <div ref={ref} className="mt-16 grid grid-cols-4 gap-2.5 sm:grid-cols-6 sm:gap-3 md:grid-cols-8 lg:grid-cols-10">
